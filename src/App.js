@@ -5,15 +5,19 @@ import MyApp from './MyApp.js';
 import {
   MeetingProvider,
   lightTheme,
-  VideoTileGrid
+  RemoteVideo,
+  useLocalVideo
 } from 'amazon-chime-sdk-component-library-react';
 
 function App() {
+  const { toggleVideo } = useLocalVideo();
   return (
     <ThemeProvider theme={lightTheme}>
     <MeetingProvider>
+
       <MyApp />
-      <VideoTileGrid />
+      <LocalVideo />
+      <button onClick={toggleVideo}>Toggle video</button>
     </MeetingProvider>
   </ThemeProvider>
   );
