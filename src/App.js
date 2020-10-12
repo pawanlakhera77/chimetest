@@ -5,13 +5,13 @@ import MyApp from './MyApp.js';
 import {
   MeetingProvider,
   lightTheme,
-  RemoteVideo,
+  //RemoteVideo,
   LocalVideo,
-  useLocalVideo
+  //useLocalVideo
 } from 'amazon-chime-sdk-component-library-react';
 
 function App() {
-  const { toggleVideo } = useLocalVideo();
+  //const { toggleVideo } = useLocalVideo();
   return (
     <ThemeProvider theme={lightTheme}>
     <MeetingProvider>
