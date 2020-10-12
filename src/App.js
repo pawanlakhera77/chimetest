@@ -8,17 +8,19 @@ import {
   //RemoteVideo,
   LocalVideo,
   useLocalVideo,
-  LocalVideoProvider
+  LocalVideoProvider,
+  VideoInputControl
 } from 'amazon-chime-sdk-component-library-react';
 
 function App() {
-  const { toggleVideo } = useLocalVideo();
+  // const { toggleVideo } = useLocalVideo();
   return (
     <ThemeProvider theme={lightTheme}>
     <MeetingProvider>
       <MyApp />
-      <LocalVideoProvider />
-      <button onClick={toggleVideo}>Toggle video</button>
+      <VideoInputControl />
+      {/* //<LocalVideoProvider /> */}
+      {/* //<button onClick={toggleVideo}>Toggle video</button> */}
     </MeetingProvider>
   </ThemeProvider>
   );
