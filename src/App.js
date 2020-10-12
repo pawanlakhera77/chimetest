@@ -4,7 +4,8 @@ import { ThemeProvider } from 'styled-components';
 import MyApp from './MyApp.js';
 import {
   MeetingProvider,
-  lightTheme
+  lightTheme,
+  VideoTileGrid
 } from 'amazon-chime-sdk-component-library-react';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <ThemeProvider theme={lightTheme}>
     <MeetingProvider>
       <MyApp />
+      <VideoTileGrid />
     </MeetingProvider>
   </ThemeProvider>
   );
