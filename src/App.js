@@ -7,18 +7,17 @@ import {
   lightTheme,
   //RemoteVideo,
   LocalVideo,
-  //useLocalVideo
+  useLocalVideo
 } from 'amazon-chime-sdk-component-library-react';
 
 function App() {
-  //const { toggleVideo } = useLocalVideo();
+  const { toggleVideo } = useLocalVideo();
   return (
     <ThemeProvider theme={lightTheme}>
     <MeetingProvider>
-
       <MyApp />
       <LocalVideo />
-      {/* <button onClick={toggleVideo}>Toggle video</button> */}
+      <button onClick={toggleVideo}>Toggle video</button>
     </MeetingProvider>
   </ThemeProvider>
   );
