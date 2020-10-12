@@ -8,6 +8,7 @@ import {
   //RemoteVideo,
   LocalVideo,
   useLocalVideo,
+  VideoTileGrid
 } from 'amazon-chime-sdk-component-library-react';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <ThemeProvider theme={lightTheme}>
     <MeetingProvider>
       <MyApp />
+      <VideoTileGrid />
       <LocalVideo />
       <MyChild/>
       {/* //<button onClick={toggleVideo}>Toggle video</button> */}
