@@ -18,7 +18,7 @@ function App() {
     <MeetingProvider>
       <MyApp />
       <VideoTileGrid />
-      <div style="width=500px;height:300px;">
+      <div style= {{width:"500",height:"300px"}}>
           <LocalVideo />
       </div>
       <MyChild/>
