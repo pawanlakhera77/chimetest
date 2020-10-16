@@ -18,7 +18,9 @@ function App() {
     <MeetingProvider>
       <MyApp />
       <VideoTileGrid />
-      <LocalVideo />
+      <div style="width=500px;height:300px;">
+          <LocalVideo />
+      </div>
       <MyChild/>
       {/* //<button onClick={toggleVideo}>Toggle video</button> */}
     </MeetingProvider>
