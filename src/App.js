@@ -12,7 +12,7 @@ import {
 } from 'amazon-chime-sdk-component-library-react';
 
 function App() {
-  const { toggleVideo } = useLocalVideo();
+  // const { toggleVideo } = useLocalVideo();
   return (
     <ThemeProvider theme={lightTheme}>
     <MeetingProvider>
@@ -21,21 +21,21 @@ function App() {
       <div style= {{width:"500",height:"300px"}}>
           <LocalVideo />
       </div>
-      {/* <MyChild/> */}
+      <MyChild/>
       <button onClick={toggleVideo}>Toggle video</button>
     </MeetingProvider>
   </ThemeProvider>
   );
 }
 
-// const MyChild = () => {
-//   const { isVideoEnabled, toggleVideo } = useLocalVideo();
+const MyChild = () => {
+  const { isVideoEnabled, toggleVideo } = useLocalVideo();
 
-//   return (
-//     <button onClick={toggleVideo}>
-//       {isVideoEnabled ? 'Stop your video' : 'Start your video'}
-//     </button>
-//   );
-// };
+  return (
+    <button onClick={toggleVideo}>
+      {isVideoEnabled ? 'Stop your video' : 'Start your video'}
+    </button>
+  );
+};
 
 export default App;
