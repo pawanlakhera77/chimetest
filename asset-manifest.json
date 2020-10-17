@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/chimetest/static/css/main.5f361e03.chunk.css",
-    "main.js": "/chimetest/static/js/main.de2560ed.chunk.js",
-    "main.js.map": "/chimetest/static/js/main.de2560ed.chunk.js.map",
+    "main.js": "/chimetest/static/js/main.6278a7ca.chunk.js",
+    "main.js.map": "/chimetest/static/js/main.6278a7ca.chunk.js.map",
     "runtime-main.js": "/chimetest/static/js/runtime-main.f0951893.js",
     "runtime-main.js.map": "/chimetest/static/js/runtime-main.f0951893.js.map",
     "static/js/2.d3e7718f.chunk.js": "/chimetest/static/js/2.d3e7718f.chunk.js",
     "static/js/2.d3e7718f.chunk.js.map": "/chimetest/static/js/2.d3e7718f.chunk.js.map",
     "index.html": "/chimetest/index.html",
-    "precache-manifest.03e1810513f8d449b5d6d22eb332316c.js": "/chimetest/precache-manifest.03e1810513f8d449b5d6d22eb332316c.js",
+    "precache-manifest.c0440a36354326370e3f31c0044b6198.js": "/chimetest/precache-manifest.c0440a36354326370e3f31c0044b6198.js",
     "service-worker.js": "/chimetest/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/chimetest/static/css/main.5f361e03.chunk.css.map",
     "static/js/2.d3e7718f.chunk.js.LICENSE.txt": "/chimetest/static/js/2.d3e7718f.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f0951893.js",
     "static/js/2.d3e7718f.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.de2560ed.chunk.js"
+    "static/js/main.6278a7ca.chunk.js"
   ]
 }
