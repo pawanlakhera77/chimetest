@@ -22,7 +22,7 @@ function App() {
           <LocalVideo />
       </div>
       <MyChild/>
-      <button onClick={toggleVideo}>Toggle video</button>
+      {/* <button onClick={toggleVideo}>Toggle video</button> */}
     </MeetingProvider>
   </ThemeProvider>
   );
